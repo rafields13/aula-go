@@ -89,7 +89,7 @@ func main() {
 	fmt.Println("A quantidade de dinheiro que você tem é de", dinheiro_reais, "reais.")
 
 	var cotação_dólar_atual float64
-	fmt.Print("Informe com quantos reais pode-se comprar com 1 dólar: ")
+	fmt.Print("Informe quantos reais pode-se comprar com 1 dólar: ")
 	fmt.Scan(&cotação_dólar_atual)
 	fmt.Println("Com 1 dolár, pode-se comprar", cotação_dólar_atual, "reais.")
 
