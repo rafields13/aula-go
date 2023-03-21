@@ -19,42 +19,42 @@ func main() {
 	var peso float64
 	fmt.Print("Quanto você pesa? ")
 	fmt.Scan(&peso)
-	fmt.Println("Você pesa", peso, "kgs.")
+	fmt.Println("Você pesa", peso, "kgs..")
 
 	//ex 2
 
 	var base float64
 	fmt.Print("Informe a base do retângulo na unidade de medida dos centímetros: ")
 	fmt.Scan(&base)
-	fmt.Println("A base do retângulo é:", base, "cms.")
+	fmt.Println("A base do retângulo é:", base, "cms..")
 
 	var altura float64
 	fmt.Print("Informe a altura do retângulo na unidade de medida dos centímetros: ")
 	fmt.Scan(&altura)
-	fmt.Println("A altura do retângulo é:", altura, "cms.")
+	fmt.Println("A altura do retângulo é:", altura, "cms..")
 
 	var área float64 = base * altura
-	fmt.Println("A área do retângulo é:", área, "cms.")
+	fmt.Println("A área do retângulo é:", área, "cms..")
 
 	//ex 3
 
 	var base_caixa float64
 	fmt.Print("Informe a base da caixa na unidade de medida dos centímetros: ")
 	fmt.Scan(&base_caixa)
-	fmt.Println("A base da caixa é:", base_caixa, "cms.")
+	fmt.Println("A base da caixa é:", base_caixa, "cms..")
 
 	var altura_caixa float64
 	fmt.Print("Informe a altura da caixa na unidade de medida dos centímetros: ")
 	fmt.Scan(&altura_caixa)
-	fmt.Println("A altura da caixa é:", altura_caixa, "cms.")
+	fmt.Println("A altura da caixa é:", altura_caixa, "cms..")
 
 	var profundidade_caixa float64
 	fmt.Print("Informe a profundidade da caixa na unidade de medida dos centímetros: ")
 	fmt.Scan(&profundidade_caixa)
-	fmt.Println("A profundidade da caixa é:", profundidade_caixa, "cms.")
+	fmt.Println("A profundidade da caixa é:", profundidade_caixa, "cms..")
 
 	var volume_caixa float64 = base_caixa * altura_caixa * profundidade_caixa
-	fmt.Println("O volume da caixa é:", volume_caixa, "cms.")
+	fmt.Println("O volume da caixa é:", volume_caixa, "cms..")
 
 	//ex 4
 
